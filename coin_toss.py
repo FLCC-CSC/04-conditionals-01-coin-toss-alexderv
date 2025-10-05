@@ -1,6 +1,6 @@
 # FILE NAME - coin_toss.py
-# NAME: 
-# DATE: 
+# NAME: Alex Dervenis
+# DATE: 10/5/2025
 # BRIEF DESCRIPTION:  
 # 1. Make sure you fill out the comments above
 # 2. Write your code in the proper spot
@@ -8,7 +8,15 @@
 # 4. The Sample Output has been included in this code for your convenience
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+import random
+coin = random.randint(1,100)
 
+if coin > 51:
+    print('===== Coin Flipper =====')
+    print('Tails')
+else:
+    print('===== Coin Flipper =====')
+    print('Heads')
 
 
 
